@@ -110,6 +110,54 @@ Each problem includes a solution file and a corresponding test file.
 
 To run the tests, execute the test file
 
+### Prerequisites
+
+Make sure Python is installed on your system.
+
+#### Check Python installation
+
+#### Windows
+```bash
+python --version
+```
+
+#### macOS / Linux
+```bash
+python3 --version
+```
+
+If Python is not installed:
+- Download from: https://www.python.org/downloads/
+- On macOS you can also use:
+```bash
+brew install python
+```
+- On Ubuntu/Debian:
+```bash
+sudo apt update
+sudo apt install python3
+```
+
+### Running Tests Using unittest Module
+
+This project uses Python's built-in unittest module.
+No additional installation is required.
+
+Test files follow this naming convention: ``` *_test.py ```
+
+Before running tests, navigate to the project root directory
+
+#### Run a specific test file 
+
+#### Windows
+```bash
+python -m unittest two_sum_test.py
+```
+### macOS / Linux
+```bash
+python3 -m unittest two_sum_test.py
+```
+
 ##  Complexity Guidelines
 
 The following table summarizes the **typical target time and space complexities**
